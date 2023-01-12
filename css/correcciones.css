@@ -2,10 +2,6 @@
     horizontal-align: right;
 }
 
-#separacion_texto {
-    position: absolute; top: 80 px; left: 100 px;
-}
-
 body {
     background: #ff00cc; /* fallback for old browsers */
     background: -webkit-linear-gradient(
@@ -18,7 +14,7 @@ body {
       #333399,
       #ff00cc
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  }
+}
 
   #fondo_blanco {
     background-color: white;
