@@ -3,17 +3,11 @@
 }
 
 body {
-    background: #ff00cc; /* fallback for old browsers */
-    background: -webkit-linear-gradient(
-      to right,
-      #333399,
-      #ff00cc
-    ); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(
-      to right,
-      #333399,
-      #ff00cc
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: rgb(188,216,217);
+  background: -moz-linear-gradient(90deg, rgba(188,216,217,1) 0%, rgba(164,217,251,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(188,216,217,1) 0%, rgba(164,217,251,1) 100%);
+  background: linear-gradient(90deg, rgba(188,216,217,1) 0%, rgba(164,217,251,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#bcd8d9",endColorstr="#a4d9fb",GradientType=1);
 }
 
   #fondo_blanco {
